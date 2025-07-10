@@ -27,6 +27,20 @@ export const cardData = {
       image1: "/api/placeholder/400/300",
       image2: "/api/placeholder/400/300",
       image3: "/api/placeholder/400/300"
+    },
+    {
+      name: "Flyering",
+      description: "Reach your target audience effectively with our flyering services. We design and distribute eye-catching flyers that communicate your message clearly and drive action. Our team ensures your flyers reach the right people at the right time, maximizing your promotional impact.",
+      image1: "/api/placeholder/400/300",
+      image2: "/api/placeholder/400/300",
+      image3: "/api/placeholder/400/300"
+    },
+    {
+      name: "Brand Activation",
+      description: "Ignite your brand's potential with our brand activation services. We create immersive experiences that engage your audience, build brand loyalty, and drive sales. Our team specializes in crafting memorable events and campaigns that leave a lasting impression.",
+      image1: "/api/placeholder/400/300",
+      image2: "/api/placeholder/400/300",
+      image3: "/api/placeholder/400/300"
     }
   ],
   merchandising: [
