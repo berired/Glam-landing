@@ -61,12 +61,12 @@ const ContactUs = () => {
 
             <div className="info-section">
               <h3>📍 Location</h3>
-              <p>123 Business Avenue<br />
-                 Suite 400<br />
-                 New York, NY 10001
+              <p>283 Sumulong Highway<br />
+                 Antipolo City<br />
+                 beside Kowloon House
               </p>
               <div className="location-image">
-                <img src="/api/placeholder/400/250" alt="Our Location" />
+                <img src="public/assets/contact us/location.png" alt="Our Location" />
               </div>
             </div>
           </div>

@@ -1,8 +1,10 @@
 import { Link, useLocation } from 'react-router-dom'
+import { useState } from 'react'
 import './Navbar.css'
 
 const Navbar = () => {
   const location = useLocation()
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = [
     { path: '/', label: 'Home' },
@@ -13,6 +15,14 @@ const Navbar = () => {
     { path: '/contact', label: 'Contact Us' }
   ]
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
+  const closeMenu = () => {
+    setIsMenuOpen(false)
+  }
+
   return (
     <nav className="navbar">
       <div className="container">
@@ -21,12 +31,23 @@ const Navbar = () => {
             <span className="brand-text">Glam</span>
           </Link>
           
-          <ul className="navbar-nav">
+          <button 
+            className={`hamburger ${isMenuOpen ? 'active' : ''}`}
+            onClick={toggleMenu}
+            aria-label="Toggle navigation menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          
+          <ul className={`navbar-nav ${isMenuOpen ? 'active' : ''}`}>
             {navItems.map((item) => (
               <li key={item.path} className="nav-item">
                 <Link 
                   to={item.path} 
                   className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
+                  onClick={closeMenu}
                 >
                   {item.label}
                 </Link>
