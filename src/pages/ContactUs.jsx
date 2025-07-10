@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './ContactUs.css'
+import locationImage from '../assets/contact us asset/location.png'
+
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -66,7 +68,7 @@ const ContactUs = () => {
                  beside Kowloon House
               </p>
               <div className="location-image">
-                <img src="public/assets/contact us/location.png" alt="Our Location" />
+                <img src={locationImage} alt="Our Location" />
               </div>
             </div>
           </div>
