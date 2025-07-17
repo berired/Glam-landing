@@ -12,9 +12,10 @@ const Events = () => {
         <div className="page-header">
           <h1 className="page-title fade-in">Events</h1>
           <p className="page-subtitle slide-up">
-            Create memorable experiences that leave lasting impressions. From corporate 
-            events to product launches, we manage every detail to ensure your events 
-            achieve their objectives and exceed expectations.
+            Your brand deserves to shine in the spotlight -- and we make it happen. Our events team specializes
+            in <b>conceptualization, set design, </b> and <b>styling</b> to create immersive experiences that connect with your audience.
+            We also deploy top-tier brand ambassadors and event personnel who reprsent your brand with confidence and professionalism.
+            From conventions and fun runs to major brand activations, we turn ideas to unforgettable moments.
           </p>
         </div>
 

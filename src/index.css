@@ -6,6 +6,21 @@
   color: #333;
   background-color: #f8f9fa;
   
+  /* Color Palette */
+  --primary-color: #023362;
+  --primary-light: #034a7a;
+  --primary-dark: #01213e;
+  --secondary-color: #f39c12;
+  --secondary-light: #e67e22;
+  --accent-color: #27ae60;
+  --neutral-light: #f8f9fa;
+  --neutral-medium: #718096;
+  --neutral-dark: #2d3748;
+  --white: #ffffff;
+  --shadow-light: rgba(2, 51, 98, 0.1);
+  --shadow-medium: rgba(2, 51, 98, 0.2);
+  --shadow-dark: rgba(2, 51, 98, 0.3);
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

@@ -17,23 +17,19 @@ const ContactUs = () => {
           <div className="contact-info">
             <div className="info-section">
               <h3>📞 Phone</h3>
-              <p>(555) 123-4567</p>
-              <p>(555) 987-6543</p>
+              <p>09178468381</p>
             </div>
 
             <div className="info-section">
               <h3>📧 Email</h3>
-              <p>info@glam.com</p>
-              <p>support@glam.com</p>
+              <p>mail@adtalk.com.ph</p>
+              <p>loveliecaoile@adtalk.com.ph</p>
             </div>
 
             <div className="info-section">
               <h3>🌐 Social Media</h3>
               <div className="social-links">
                 <a href="#" className="social-link">Facebook</a>
-                <a href="#" className="social-link">Twitter</a>
-                <a href="#" className="social-link">LinkedIn</a>
-                <a href="#" className="social-link">Instagram</a>
               </div>
             </div>
 

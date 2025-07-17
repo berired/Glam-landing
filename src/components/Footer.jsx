@@ -16,19 +16,17 @@ const Footer = () => {
               <li><a href="/">Home</a></li>
               <li><a href="/promotions">Promotions</a></li>
               <li><a href="/merchandising">Merchandising</a></li>
+              <li><a href = "/events"></a>Events</li>
               <li><a href="/logistics">Logistics</a></li>
             </ul>
           </div>
           
           <div className="footer-section">
             <h4>Contact</h4>
-            <p>Email: info@glam.com</p>
+            <p>Email: mail@adtalk.com.ph</p>
             <p>Phone: (555) 123-4567</p>
             <div className="social-links">
-              <a href="#" aria-label="Facebook">📘</a>
-              <a href="#" aria-label="Twitter">🐦</a>
-              <a href="#" aria-label="LinkedIn">💼</a>
-              <a href="#" aria-label="Instagram">📷</a>
+              <a href="#" aria-label="Facebook">📘 Facebook </a>
             </div>
           </div>
         </div>

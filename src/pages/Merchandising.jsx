@@ -12,9 +12,9 @@ const Merchandising = () => {
         <div className="page-header">
           <h1 className="page-title fade-in">Merchandising</h1>
           <p className="page-subtitle slide-up">
-            Transform your retail presence with innovative merchandising solutions. 
-            From eye-catching displays to strategic product placement, we help 
-            you maximize your sales potential.
+            Visibility drives sales, and we make sure your brand stands out where it matters most. 
+            Our merchandising solutions cover POSM management, installation of trade materials, and regular monitoring to keep your brand consistent and impactful in retail spaces. 
+            From shelf highlighters to standees and banners, we provide sales-efficient strategies backed by demographic profiling and expert execution.
           </p>
         </div>
 

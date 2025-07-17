@@ -13,22 +13,22 @@ const Home = () => {
   const services = [
     {
       title: "Promotions",
-      description: "Strategic promotional campaigns that drive sales and engagement",
+      description: "We create experiences that move consumers from awareness to action.",
       icon: "🎯"
     },
     {
       title: "Merchandising", 
-      description: "Creative merchandising solutions that enhance brand visibility",
+      description: "Visibility drives sales, and we make sure your brand stands out where it matters most.",
       icon: "🏪"
     },
     {
       title: "Events",
-      description: "Memorable events that create lasting impressions",
+      description: "Your brand deserves to shine in the spotlight — and we make it happen.",
       icon: "🎉"
     },
     {
       title: "Logistics",
-      description: "Efficient logistics and supply chain management services",
+      description: "Seamless logistics means your campaign runs without a hitch.",
       icon: "🚚"
     }
     
@@ -44,8 +44,8 @@ const Home = () => {
               Elevate Your Business with <span className="highlight">Glam</span>
             </h1>
             <p className="hero-subtitle slide-up">
-              Professional solutions in promotions, merchandising, and logistics 
-              that transform your business potential into measurable success.
+              We bring what you need into life.
+              The team behind the breakthrough. 
             </p>
             <div className="hero-actions slide-up">
               <Link to="/contact" className="btn btn-primary">
@@ -94,20 +94,6 @@ const Home = () => {
                 businesses of all sizes achieve their goals through strategic planning, 
                 creative execution, and measurable results.
               </p>
-              <div className="about-stats">
-                <div className="stat">
-                  <span className="stat-number">500+</span>
-                  <span className="stat-label">Projects Completed</span>
-                </div>
-                <div className="stat">
-                  <span className="stat-number">50+</span>
-                  <span className="stat-label">Happy Clients</span>
-                </div>
-                <div className="stat">
-                  <span className="stat-number">5+</span>
-                  <span className="stat-label">Years Experience</span>
-                </div>
-              </div>
             </div>
             <div className="about-image">
               <img src="/api/placeholder/500/400" alt="About Glam" />
@@ -116,19 +102,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Clients Section */}
-      <section className="clients">
-        <div className="container">
-          <h2 className="section-title">Trusted by Leading Companies</h2>
-          <div className="clients-grid">
-            {currentClients.map((client, index) => (
-              <div key={index} className="client-card fade-in" style={{animationDelay: `${index * 0.1}s`}}>
-                <h4>{client}</h4>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

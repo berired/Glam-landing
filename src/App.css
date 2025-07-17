@@ -76,23 +76,23 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #023362 0%, #034a7a 100%);
   color: white;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 25px rgba(2, 51, 98, 0.3);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #023362;
+  border: 2px solid #023362;
 }
 
 .btn-secondary:hover {
-  background: #667eea;
+  background: #023362;
   color: white;
   transform: translateY(-2px);
 }

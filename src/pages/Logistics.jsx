@@ -12,9 +12,8 @@ const Logistics = () => {
         <div className="page-header">
           <h1 className="page-title fade-in">Logistics</h1>
           <p className="page-subtitle slide-up">
-            Streamline your operations with our comprehensive logistics solutions. 
-            From supply chain management to distribution networks, we optimize 
-            your logistics for maximum efficiency and cost-effectiveness.
+            Seamless logistics means your campaign runs without a hitch. We provide <b>end-to-end logistics management, </b>ensuring safe and efficient movement of your brand assets
+            <b>from client warehouses to subwarehouses, anywhere in the Philippines.</b> With our reliable delivery network, your promotional materials and merchandising tools get to the right place, at the right time, every time.
           </p>
         </div>
 
