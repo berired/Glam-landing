@@ -13,7 +13,7 @@ const Promotions = () => {
           <h1 className="page-title fade-in">Promotions</h1>
           <p className="page-subtitle slide-up">
             We create experiences that move consumers from awareness to action. Our promotional
-            straregies go beyond the ordinary by combining <b>push selling, sampling, flyering, </b> and <b>brand activations</b>
+            straregies go beyond the ordinary by combining <b>push selling, sampling, flyering, </b> and <b>brand activations </b>
             to put your products directly in the hands of your market. Whether through on-ground engagements, excting promos, or unique brand touchpoints,
             we ensure your audience sees, feels, and remembers your brand.
           </p>

@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import './Navbar.css'
+import glamLogo from '../assets/glamlogo.png'
 
 const Navbar = () => {
   const location = useLocation()
@@ -28,6 +29,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-content">
           <Link to="/" className="navbar-brand">
+            <img src={glamLogo} alt="Glam Logo" className="brand-logo" />
             <span className="brand-text">Glam</span>
           </Link>
           

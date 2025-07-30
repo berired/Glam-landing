@@ -58,14 +58,29 @@
   margin-top: 1rem;
 }
 
-.social-links a {
-  font-size: 1.5rem;
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #718096;
   text-decoration: none;
-  transition: transform 0.3s ease;
+  font-size: 1rem;
+  transition: all 0.3s ease;
 }
 
-.social-links a:hover {
+.social-link:hover {
+  color: #1877f2;
   transform: translateY(-2px);
+}
+
+.social-link svg {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover svg {
+  fill: #1877f2;
 }
 
 .footer-bottom {

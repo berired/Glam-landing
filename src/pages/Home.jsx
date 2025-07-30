@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Home.css'
+import glamLogo from '../assets/glamlogo.png'
 
 const Home = () => {
   const currentClients = [
@@ -45,6 +46,7 @@ const Home = () => {
             </h1>
             <p className="hero-subtitle slide-up">
               We bring what you need into life.
+              <br />
               The team behind the breakthrough. 
             </p>
             <div className="hero-actions slide-up">
@@ -54,6 +56,28 @@ const Home = () => {
               <Link to="/promotions" className="btn btn-secondary">
                 Explore Services
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="about">
+        <div className="container">
+          <div className="about-content">
+            <div className="about-text">
+              <h2 className="section-title">About Glam</h2>
+              <p>
+                <b>We bring what you need into life.</b>
+              </p>
+              <p>
+                We are the team behind the breakthrough brand experiences - crafting on-ground strategies
+                that connect, engage, and drive results. From concept to execution, we specialize in <b>promotions, merchandising, events, </b>and <b>logistics</b> that make your brand stand out where it matters most.
+                
+              </p>
+            </div>
+            <div className="about-image">
+              <img src={glamLogo} alt="About Glam" />
             </div>
           </div>
         </div>
@@ -78,29 +102,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="about">
-        <div className="container">
-          <div className="about-content">
-            <div className="about-text">
-              <h2 className="section-title">About Glam</h2>
-              <p>
-                At Glam, we specialize in delivering comprehensive business solutions that 
-                combine style with substance. Our expertise spans across promotional campaigns, 
-                innovative merchandising, and efficient logistics management.
-              </p>
-              <p>
-                With years of experience and a team of dedicated professionals, we help 
-                businesses of all sizes achieve their goals through strategic planning, 
-                creative execution, and measurable results.
-              </p>
-            </div>
-            <div className="about-image">
-              <img src="/api/placeholder/500/400" alt="About Glam" />
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
     </div>
   )

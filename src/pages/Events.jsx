@@ -14,7 +14,7 @@ const Events = () => {
           <p className="page-subtitle slide-up">
             Your brand deserves to shine in the spotlight -- and we make it happen. Our events team specializes
             in <b>conceptualization, set design, </b> and <b>styling</b> to create immersive experiences that connect with your audience.
-            We also deploy top-tier brand ambassadors and event personnel who reprsent your brand with confidence and professionalism.
+            We also deploy top-tier brand ambassadors and event personnel who represent your brand with confidence and professionalism.
             From conventions and fun runs to major brand activations, we turn ideas to unforgettable moments.
           </p>
         </div>

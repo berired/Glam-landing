@@ -15,11 +15,22 @@
 }
 
 .contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-left {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 600px;
-  width: 100%;
+}
+
+.contact-right {
+  display: flex;
+  align-items: flex-start;
 }
 
 .info-section {
@@ -86,6 +97,15 @@
 }
 
 @media (max-width: 768px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .contact-left {
+    gap: 1.5rem;
+  }
+  
   .info-section {
     padding: 1.5rem;
   }
