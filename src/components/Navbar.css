@@ -28,6 +28,10 @@
   height: 40px;
   width: auto;
   object-fit: contain;
+  background: transparent;
+  border: none;
+  outline: none;
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.1));
 }
 
 .brand-text {
