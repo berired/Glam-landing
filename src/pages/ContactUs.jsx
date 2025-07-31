@@ -1,5 +1,5 @@
 import './ContactUs.css'
-import locationImage from '../assets/contact us asset/location.png'
+import locationImage from '../assets/contact-us-assets/location.png'
 
 const ContactUs = () => {
   return (
