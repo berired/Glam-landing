@@ -7,17 +7,15 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <h3 className="footer-brand">Glam</h3>
-            <p>Professional business solutions with style and efficiency.</p>
+            <p><b>We move things upward.</b></p>
           </div>
           
           <div className="footer-section">
             <h4>Quick Links</h4>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/promotions">Promotions</a></li>
-              <li><a href="/merchandising">Merchandising</a></li>
-              <li><a href="/events">Events</a></li>
-              <li><a href="/logistics">Logistics</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           

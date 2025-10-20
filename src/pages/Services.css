@@ -1,0 +1,304 @@
+/* Services Page Styles */
+.services-page {
+  min-height: 100vh;
+}
+
+/* Services Hero Section */
+.services-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+  color: var(--white);
+  padding: var(--spacing-4xl) 0 var(--spacing-3xl);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><defs><radialGradient id="a" cx="50%" cy="40%" r="50%"><stop offset="0%" stop-color="%23fff" stop-opacity="0.1"/><stop offset="100%" stop-color="%23fff" stop-opacity="0"/></radialGradient></defs><rect width="100" height="20" fill="url(%23a)"/></svg>');
+  opacity: 0.1;
+}
+
+.services-hero .hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.services-hero .hero-title {
+  font-size: var(--font-6xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+  color: var(--white);
+}
+
+.services-hero .hero-subtitle {
+  font-size: var(--font-xl);
+  opacity: 0.9;
+  margin-bottom: var(--spacing-xl);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Services Content */
+.services-content {
+  padding: var(--spacing-3xl) 0;
+  background: var(--neutral-light);
+}
+
+.services-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.service-card.detailed {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  box-shadow: 0 10px 40px var(--shadow-light);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(2, 51, 98, 0.08);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: auto;
+  max-width: 100%;
+}
+
+.service-card.detailed::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.service-card.detailed:hover::before {
+  transform: scaleX(1);
+}
+
+.service-card.detailed:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 60px var(--shadow-medium);
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 0;
+  flex-shrink: 0;
+  min-width: 300px;
+}
+
+.service-card.detailed .service-icon {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #023362 0%, #1e4a73 100%);
+  border-radius: 12px;
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.service-card.detailed h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #023362;
+  margin: 0;
+}
+
+.service-content {
+  flex: 1;
+  padding-left: var(--spacing-lg);
+}
+
+.service-description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.service-details {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.service-details h4 {
+  color: #023362;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.service-details ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.service-details li {
+  background: var(--neutral-light);
+  border: 2px solid var(--primary-color);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+  font-size: var(--font-sm);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.service-details li:hover {
+  background: var(--primary-color);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(2, 51, 98, 0.2);
+}
+
+.service-actions {
+  margin-top: auto;
+}
+
+.service-actions .btn {
+  width: 100%;
+  justify-content: center;
+}
+
+/* Services CTA */
+.services-cta {
+  background: linear-gradient(135deg, #023362 0%, #1e4a73 100%);
+  color: white;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.cta-content p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin-bottom: 2.5rem;
+}
+
+.btn-large {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services-hero {
+    padding: var(--spacing-3xl) 0 var(--spacing-2xl);
+  }
+  
+  .services-hero .hero-title {
+    font-size: var(--font-4xl);
+  }
+  
+  .services-hero .hero-subtitle {
+    font-size: var(--font-lg);
+  }
+  
+  .services-content {
+    padding: var(--spacing-2xl) 0;
+  }
+  
+  .services-grid {
+    gap: var(--spacing-lg);
+  }
+  
+  .service-card.detailed {
+    padding: var(--spacing-lg);
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .service-header {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-md);
+    min-width: auto;
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .service-content {
+    padding-left: 0;
+  }
+  
+  .service-details ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: var(--spacing-sm);
+  }
+  
+  .service-details li {
+    padding: var(--spacing-sm);
+    font-size: var(--font-xs);
+  }
+  
+  .services-cta {
+    padding: var(--spacing-2xl) 0;
+  }
+  
+  .cta-content h2 {
+    font-size: var(--font-3xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .services-hero .hero-title {
+    font-size: var(--font-3xl);
+  }
+  
+  .service-card.detailed {
+    padding: var(--spacing-lg);
+  }
+  
+  .service-card.detailed .service-icon {
+    font-size: var(--font-3xl);
+    min-width: 50px;
+    height: 50px;
+  }
+  
+  .service-details ul {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: var(--spacing-xs);
+  }
+  
+  .service-details li {
+    padding: var(--spacing-xs);
+    font-size: var(--font-xs);
+  }
+}
