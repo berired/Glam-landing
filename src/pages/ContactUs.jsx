@@ -18,12 +18,12 @@ const ContactUs = () => {
             <div className="contact-left">
               <div className="info-section">
                 <h3>📞 Phone</h3>
-                <p>09178468381</p>
+                <p>09260830993</p>
               </div>
 
               <div className="info-section">
                 <h3>📧 Email</h3>
-                <p>mail@adtalk.com.ph</p>
+                <p>admin@glamcorp.com.ph</p>
                 <p>loveliecaoile@adtalk.com.ph</p>
               </div>
 
@@ -38,8 +38,8 @@ const ContactUs = () => {
             <div className="contact-right">
               <div className="info-section">
                 <h3>📍 Location</h3>
-                <p>283 Sumulong Highway<br />
-                   Antipolo City<br />
+                <p>283 Sumulong Highway Brgy. Mambugan<br />
+                   Antipolo City 1870 Philippines <br />
                    beside Kowloon House
                 </p>
                 <div className="location-image">
