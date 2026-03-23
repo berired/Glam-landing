@@ -1,12 +1,60 @@
-# React + Vite
+# GLAM Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Marketing website for GLAM Innovative Advertising Corp, built as a freelance web project.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a freelance website build focused on presenting GLAM's services, client work, and contact information in a clean and modern landing page experience.
 
-## Expanding the ESLint configuration
+The site includes:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Home page with brand positioning, mission and vision, and client logos
+- Services page with detailed service offerings
+- Contact page with business contact details and location section
+
+## Tech Stack
+
+- React 19
+- Vite 7
+- React Router DOM 7
+- CSS (component and page-level stylesheets)
+- ESLint 9
+- EmailJS Browser SDK (installed dependency)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Install
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Available Scripts
+
+- `npm run dev` - start Vite development server
+- `npm run build` - build the app for production
+- `npm run preview` - preview production build locally
+- `npm run lint` - run ESLint checks
